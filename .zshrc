@@ -21,10 +21,6 @@ PATH="$GOPATH/bin:$PATH"
 # nodebrew
 export PATH=$HOME/.nodebrew/current/bin:$PATH
 
-# aws cli
-export PATH=~/.local/bin:$PATH
-export AWS_DEFAULT_PROFILE=raksul-com-role
-
 # yarn
 export PATH="$PATH:/opt/yarn-[version]/bin"
 export PATH="$PATH:`yarn global bin`"
